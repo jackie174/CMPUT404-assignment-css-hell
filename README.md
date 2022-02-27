@@ -29,8 +29,8 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Flightfieldstudios.net%2F409955
 - wildtextures-clean-plywood-plate-1280x853.png  
 https://cdn.cssauthor.com/wp-content/uploads/2015/10/Clean-Plywood-Texture.jpg?strip=all&lossy=1&ssl=1  
 
-Base Code: 
-Get start with template in the website. 
+Base Code:  
+Get start with template for part 2. 
 https://www.runoob.com/w3cnote/htmlcss-make-a-website.html
 
 

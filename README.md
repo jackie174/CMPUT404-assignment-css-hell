@@ -24,7 +24,7 @@ Code is licensed under the Apache 2.0 license.
 Reference:  
 Image:  
 - old_paper.png  
-https://www.google.com/url?sa=i&url=https%3A%2F%2Flightfieldstudios.net%2F409955878%2Fstock-photo-dirty-old-paper-texture-background.html&psig=AOvVaw15ouhAFqdzCXI13dI7SnSQ&ust=1646055963855000&source=images&cd=vfe&ved=0CAsQjRxqGAoTCODG1sSCoPYCFQAAAAAdAAAAABCgAQ  
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzQXXKZ-9juydC-L5N2ZNI-TMa1XxnFgswww&usqp=CAU  
 
 - wildtextures-clean-plywood-plate-1280x853.png  
 https://cdn.cssauthor.com/wp-content/uploads/2015/10/Clean-Plywood-Texture.jpg?strip=all&lossy=1&ssl=1  

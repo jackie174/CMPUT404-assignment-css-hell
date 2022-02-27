@@ -1,41 +1,55 @@
-
 * {
     box-sizing: border-box;
 }
 
-/* body 样式 */
 body {
-    font-family: Arial;
-    margin: 0;
-}
-/* 导航 */
-.navbar {
-    overflow: hidden;
-    background-color: #333;
+    font-family: "Times New Roman";
 }
 
-/* 导航栏样式 */
-.navbar a {
-    float: left;
-    display: block;
-    color: white;
+#wood {
+    height: 1em;
+    background-size: 100% 100%;
+    width:100%;
+}
+#header {
+    display: center;
+    flex-direction: row;
+    color: rgb(255, 254, 185);
+    height: 10em;
+    background: radial-gradient(rgb(90, 206, 252), rgb(47, 167, 247), #008cff);
+}
+
+#header h1{
     text-align: center;
-    padding: 14px 20px;
-    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 2em;
+}
+#profile_photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(73, 59, 59, 0.801);
 }
 
-/* 右侧链接*/
-.navbar a.right {
-    float: right;
+.navbar a {
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
 }
 
-/* 鼠标移动到链接的颜色 */
+
 .navbar a:hover {
-    background-color: #ddd;
+    background-color: rgb(255, 255, 255);
     color: black;
 }
 
-/* 列容器 */
 .row {  
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -43,45 +57,50 @@ body {
     flex-wrap: wrap;
 }
 
-/* 创建两个列 */
-/* 边栏 */
 .side {
-    -ms-flex: 30%; /* IE10 */
-    flex: 30%;
-    background-color: #f1f1f1;
-    padding: 20px;
+    -ms-flex: 15%; /* IE10 */
+    flex: 15%;
+    background-color: #ffffff;
+    padding: 25px;
 }
 
-/* 主要的内容区域 */
 .main {   
-    -ms-flex: 70%; /* IE10 */
-    flex: 70%;
+    -ms-flex: 85%; /* IE10 */
+    flex: 85%;
     background-color: white;
     padding: 20px;
 }
-
-/* 测试图片 */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
-
-/* 底部 */
-.footer {
-    padding: 20px;
+#Important-points{
+    position: absolute;
+    top: 15em;
+    right: 1em;
+    width: 15%;
+    background-color: lightgray;
     text-align: center;
-    background: #ddd;
+    padding: 1em;
+
+}
+#Important-points h3 {
+    line-height: 2em;
+    color: rgb(32, 172, 228);
 }
 
-/* 响应式布局 - 在屏幕设备宽度尺寸小于 700px 时, 让两栏上下堆叠显示 */
+#Project {
+    padding: 300px;
+    font-size: larger;
+    text-align: center;
+    background: rgb(255, 254, 254);
+
+}
+
+/* Responsive Layout - Stack two columns on top of each other when the device width is less than 700px */
 @media screen and (max-width: 700px) {
     .row {   
         flex-direction: column;
     }
 }
 
-/* 响应式布局 - 在屏幕设备宽度尺寸小于 400px 时, 让导航栏目上下堆叠显示 */
+/* Responsive Layout - When the width of the screen device is less than 400px, the navigation bar is stacked on top of each other */
 @media screen and (max-width: 400px) {
     .navbar a {
         float: none;
